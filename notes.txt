@@ -16,3 +16,6 @@ this will take a bit
 but it should work
 
 back to understanding react, remember, react is designed to run on the server in small easy snippets
+
+node will install of your dependencies defined in  package.json and store them in the node_modules folder
+
