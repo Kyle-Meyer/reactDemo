@@ -1,0 +1,18 @@
+here I will compile all of my thoughts on react as I attempt to learn this trash
+
+the key feature of react is that we can hide information and functionality from the user after they have already loaded the webpage, meaning once we have everything loaded from the server, we can use react to build an intuitive user interface that will never have to actually load  anything
+
+why use react?
+with normal JS you have to detail every single step that can be taken, react makes some assumptions about what should happene on elements, giving it some limitations, but ultimately accomplishes its goal of being a user interface
+
+getting npm to work is a fucking nightmare, instead use nvm https://github.com/nvm-sh/nvm and then use 'nvm install 16' to get the required versions
+
+now run
+
+npx create-react-app my-app
+
+this will take a bit
+
+but it should work
+
+back to understanding react, remember, react is designed to run on the server in small easy snippets
