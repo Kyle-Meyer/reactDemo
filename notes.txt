@@ -19,3 +19,8 @@ back to understanding react, remember, react is designed to run on the server in
 
 node will install of your dependencies defined in  package.json and store them in the node_modules folder
 
+any custom element that you build must be an uppercase character
+
+in react the concept of parameters are generalized, their data is not interpreted upon passing, so it is often refered to as props
+
+if you want to introduce an element that should be treated as a javascript expression rather than plain text, use "{}"
