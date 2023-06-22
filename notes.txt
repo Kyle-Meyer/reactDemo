@@ -24,3 +24,9 @@ any custom element that you build must be an uppercase character
 in react the concept of parameters are generalized, their data is not interpreted upon passing, so it is often refered to as props
 
 if you want to introduce an element that should be treated as a javascript expression rather than plain text, use "{}"
+
+react has a built in handler to manage between states of the page
+
+useState will return an array of the elements on the page 
+
+for JS its best to think of functions as objects, that can get passed around like arrays, strings, ints, etc

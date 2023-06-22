@@ -1,18 +1,13 @@
 
 import Card from "./Card";
-import BackDrop from "./components/Backdrop";
-import Modal from "./components/Modal";
-
 //the actual function
 function App() {
   return (
     <div>
       <h1>Hee Hee Hee Haw</h1>
-      <Card text='poiper'/>
-      <Card text='poiper2'/>
-      <Card text='poiper3'/>
-      <Modal/>
-      <BackDrop/>
+      <Card text='Do thing 1'/>
+      <Card text='Do thing 2'/>
+      <Card text='Do thing 3'/>
     </div>
   );
 }
