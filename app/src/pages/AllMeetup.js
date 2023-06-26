@@ -22,7 +22,7 @@ const DUMMY_DATA = [
 ];
 function AllMeetupPage(){
  return <section>
-    <div> poiper</div>
+    <div></div>
     <MeetupList meetups={DUMMY_DATA}/>
  </section>;
 }
