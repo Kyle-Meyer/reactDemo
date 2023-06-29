@@ -8,6 +8,15 @@ import style from './MainNavigation.module.css'
 function MainNavigationComponent()
 {
     const fCtx = useContext(FaveContext);
+    let disp;
+    if(fCtx.totalFavorites === 0)
+    {
+        disp = <span></span>
+    }
+    else
+    {
+        disp = <span className={style.badge}>{fCtx.totalFavorites}</span>
+    }
     return(
         <header className={style.header}>
             <div className={style.logo}>Reactor</div>
@@ -18,7 +27,7 @@ function MainNavigationComponent()
                     <li><Link to='/'> All Meetups </Link></li>
                     <li><Link to='/new-meetup'> New Meetups </Link></li>
                     <li><Link to='/favorites'> Favorites  
-                        <span className={style.badge}>{fCtx.totalFavorites}</span>
+                        {disp}         
                      </Link></li>
                 </ul>
             </nav>
